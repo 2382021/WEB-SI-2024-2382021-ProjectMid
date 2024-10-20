@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style-registration.css">
+    <link rel="icon" type="image/x-icon" href="src/images-videos/favicon.png">
+    <title>Registration Form</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="about.html" >About Me</a></li>
+            <li><a href="myholiday.html">My Holiday</a></li>
+            <li><a href="#" class="active-link">Registration</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="content">
+            <video src="src/images-videos/registration-bg.mp4" autoplay muted loop></video>
+            <form action="process.php" method="POST">
+                <h2>Registration</h2>
+                
+                <input type="text" name="nama lengkap" placeholder="Fullname" required>
+                
+                <label for="birthDate">BirthDate :</label>
+                <input type="date" name="Tanggal Lahir" id="birthDate" required>
+                
+                <input type="tel" name="Phone Number" placeholder="Phone Number" required>
+
+                <input type="email" name="email" placeholder="Email" required>
+
+                <input type="text" name="Address" placeholder="Address" required>
+
+                <input type="text" name="Town" placeholder="Town" required>
+
+                <input type="number" name="Zipcode" placeholder="Zipcode" required>
+                
+                <input type="submit" value="Register">
+            </form>
+        
+        </div>
+    </main>
+    <footer>
+        <div class="footer-link-container">
+            <a href="https://github.com/">
+                <img src="src/images-videos/github-mark-white.png" alt="github logo">
+                <h3>Github</h3>
+            </a>
+            <a href="https://fti.unai.edu/">
+                <img src="src/images-videos/Fti-Outline.png" alt="github logo">
+                <h3>FTI UNAI</h3>
+            </a>
+            <a href="https://unai.edu/">
+                <img src="src/images-videos/image.png" alt="github logo">
+                <h3>UNAI</h3>
+            </a>
+        </div>
+        <p class="copyright">&copy; 2024 GafintNBT. Dilindungi Hak Cipta.</p>
+    </footer>
+</body>
+</html>
